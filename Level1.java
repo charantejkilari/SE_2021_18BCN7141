@@ -19,7 +19,7 @@ public class Level1 {
 	 //game
 	 int k=0;
 	 public void startGame() {
-		 while(k<4) {
+		 while(true) {
 			 if(k%2==0) {
 				 System.out.println("Player A's move");
 				 String move=sc.nextLine();
